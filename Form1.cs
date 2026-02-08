@@ -95,33 +95,34 @@ namespace belge
                 MessageBox.Show("Yanlýþ sayýsý giriþi yaptýnýz! Lütfen tekrar deneyin.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 //MessageBox.Show( "yanlýþ sayý giriþi ","sayý hatasý ", MessageBoxButtons.OK, MessageBoxIcon.Information);                 
             }
-
-            if (edb() < 70)
-            {
-                labelSonucu.Text = "Edebiyat notu 70 altý olduðu için belge alamazsýnýz.";
-                labelSonucu.Visible = true;
-            }
-            else if (dýsýplýn() > 0)
-            {
-                labelSonucu.Text = "Disiplin cezanýz olduðu için belge alamazsýnýz.";
-                labelSonucu.Visible = true;
-            }
-            else if (genelort >= 85)
-            {
-                labelSonucu.Text = $"Ortalamanýz {genelort}: Takdir Belgesi Aldýnýz!";
-                labelSonucu.Visible = true;
-            }
-            else if (genelort >= 70)
-            {
-                labelSonucu.Text = $"Ortalamanýz {genelort}: Teþekkür Belgesi Aldýnýz!";
-                labelSonucu.Visible = true;
-            }
             else
-            {
-                labelSonucu.Text = "Ortalamanýz belge almak için yetersiz.";
-                labelSonucu.Visible = true;
+            { 
+                if (edb() < 70)
+                {   
+                    labelSonucu.Text = "Edebiyat notu 70 altý olduðu için belge alamazsýnýz.";
+                    labelSonucu.Visible = true;
+                }
+                else if (dýsýplýn() > 0)
+                {
+                    labelSonucu.Text = "Disiplin cezanýz olduðu için belge alamazsýnýz.";
+                    labelSonucu.Visible = true;
+                }
+                else if (genelort >= 85)
+                {
+                    labelSonucu.Text = $"Ortalamanýz {genelort}: Takdir Belgesi Aldýnýz!";
+                    labelSonucu.Visible = true;
+                }
+                else if (genelort >= 70)
+                {
+                    labelSonucu.Text = $"Ortalamanýz {genelort}: Teþekkür Belgesi Aldýnýz!";
+                    labelSonucu.Visible = true;
+                }
+                else
+                {
+                    labelSonucu.Text = "Ortalamanýz belge almak için yetersiz.";
+                    labelSonucu.Visible = true;
+                }
             }
-
            
 
 

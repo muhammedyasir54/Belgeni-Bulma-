@@ -388,30 +388,32 @@
             // buttonBelgeBulucu
             // 
             buttonBelgeBulucu.Font = new Font("Segoe UI", 20F);
-            buttonBelgeBulucu.Location = new Point(50, 304);
+            buttonBelgeBulucu.Location = new Point(3, 302);
             buttonBelgeBulucu.Name = "buttonBelgeBulucu";
             buttonBelgeBulucu.Size = new Size(230, 112);
             buttonBelgeBulucu.TabIndex = 37;
             buttonBelgeBulucu.Text = "Genel Ortalaman ve Belgen ";
             buttonBelgeBulucu.UseVisualStyleBackColor = true;
+            buttonBelgeBulucu.Click += buttonBelgeBulucu_click;
             // 
             // labelSonucu
             // 
             labelSonucu.AutoSize = true;
-            labelSonucu.BackColor = Color.Black;
-            labelSonucu.Font = new Font("Segoe UI", 19F);
-            labelSonucu.Location = new Point(306, 344);
+            labelSonucu.BackColor = Color.Silver;
+            labelSonucu.Font = new Font("Segoe UI", 13F);
+            labelSonucu.Location = new Point(239, 314);
             labelSonucu.Name = "labelSonucu";
-            labelSonucu.Size = new Size(22, 36);
+            labelSonucu.Size = new Size(17, 25);
             labelSonucu.TabIndex = 38;
             labelSonucu.Text = " ";
+            labelSonucu.Visible = false;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Silver;
-            ClientSize = new Size(778, 426);
+            ClientSize = new Size(815, 426);
             Controls.Add(labelSonucu);
             Controls.Add(buttonBelgeBulucu);
             Controls.Add(textBoxDısıplınMıktarı);
