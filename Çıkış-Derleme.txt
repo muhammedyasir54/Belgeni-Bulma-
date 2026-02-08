@@ -1,0 +1,6 @@
+﻿Derleme şu saatte başlatıldı: 10:52...
+1>------ Derleme başladı: Proje: belge, Yapılandırma: Debug Any CPU ------
+1>  Yapıyı hızlandırmak için çözümleyiciler atlanıyor. Çözümleyicileri çalıştırmak için 'Oluştur' veya 'Yeniden Oluştur' komutunu çalıştırabilirsiniz.
+1>  belge -> C:\Users\drsoz\source\repos\belge\bin\Debug\net10.0-windows\belge.dll
+========== Derleme: 1 başarılı, 0 başarısız, 0 güncel, 0 atlandı ==========
+========== Derleme şu saatte tamamlandı: 10:52 ve 02,982 saniye sürdü ==========
